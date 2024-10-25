@@ -1,0 +1,48 @@
+\ProvidesPackage{inserircapa}
+\newcommand{\inserircapa}{
+\parbox{3cm}{\includegraphics[width=3cm]{../ifsp-logo.png}} \\
+
+ \vspace{2cm}
+
+\ABNTEXchapterfont\begin{center}
+
+ \textbf{\imprimirinstituicao} \\
+ \textbf{Campus São Paulo} \\
+ Engenharia Eletrônica (SPO.BAC.ELO)
+ \vspace{2cm}
+
+ \textbf{\imprimirtipotrabalho}: \imprimirtitulo
+\end{center}
+
+ \vspace{2cm}
+
+\begin{flushright}
+ \begin{minipage}{0.5\textwidth}
+
+  \imprimirautor \\
+
+  \imprimirdisciplina \\
+
+  \textbf{Professores:} \imprimirorientador
+
+ \end{minipage}
+\end{flushright}
+
+\vfill
+
+\begin{center}
+ \imprimirlocal \\
+ \imprimirdata
+\end{center}
+
+\newpage
+}
+
+\ProvidesPackage{disciplina}
+\newcommand{\disciplina}[1]{
+\newcommand{\imprimirdisciplina}{
+ \textbf{Discplina: }#1
+ }
+}
+
+

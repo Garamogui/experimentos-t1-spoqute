@@ -1,0 +1,24 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{Sum\'ario}{2}{section*.1}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeUppercase []{Introdução}}{3}{chapter.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Fundamentação Teórica}}{4}{chapter.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Metodologia Experimental}}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Materiais e Reagentes}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Procedimento Experimental}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Parte I}{5}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Parte II}{6}{subsection.3.2.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Resultados e Discussão}}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Parte I}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Tabela de Resultados por observação:}{7}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Parte II}{7}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Tabela de Resultados por observação:}{7}{subsection.4.2.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Conclusões}}{8}{chapter.5}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{9}{section*.3}%

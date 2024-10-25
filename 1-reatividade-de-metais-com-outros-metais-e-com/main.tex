@@ -1,0 +1,49 @@
+\documentclass[ 12pt, % tamanho da fonte
+ openright, % capítulos começam em página ímpar (insere página vazia caso preciso)
+ oneside, % para impressão em verso e anverso. Oposto a oneside
+ a4paper, % tamanho do papel. 
+ english, % idioma adicional para hifenização
+ brazil % o último idioma é o principal do documento
+ ]{abntex2}
+
+\usepackage{booktabs}
+\usepackage{times}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc} 
+\usepackage{graphicx} % Required for inserting images
+\usepackage{array}
+\usepackage{csquotes}
+\usepackage[bibstyle=abnt, citestyle=abnt-numeric]{biblatex}
+\usepackage{capa}
+\addbibresource{$HOME/Documents/latex/referencias.bib}
+
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\autor{ \textbf{Estudantes:} Gabriel Arom Gonçalves Vianna de Moura e Silva,\\
+ Luigi Gava Costa,\\
+ Pedro Henrique Batista,\\
+ Rafael Fernandes Barnabé
+}
+\disciplina{Química Experimental }
+\data{2024}
+\tipotrabalho{Relatório}
+\local{São Paulo}
+\titulo{Reatividade de metais com outros metais e com solução ácida.} % introduz título do trabalho
+\orientador{Prof. Lucia Collet, \\ Prof. Caio Souza}
+\instituicao{Instituto Federal de Educação, Ciência e Tecnologia de São Paulo}
+
+%%%%%%%%%%%%%% Início do documento %%%%%%%%%%%%%%
+
+\begin{document}
+
+\inserircapa
+
+\tableofcontents
+\input{chapters/introducao}
+\input{chapters/fundamentacao-teorica}
+\input{chapters/metodologia-experimental}
+\input{chapters/resultados-e-discussao}
+\input{chapters/conclusoes}
+\printbibliography
+\end{document}
